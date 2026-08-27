@@ -20,14 +20,13 @@
   --shadow: rgba(15, 23, 42, 0.09);
 }
 
-
 :root[data-theme="dark"] {
   --bg: #080d18;
   --surface: #111827;
   --surface-soft: #172033;
-  --text: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --border: #263449;
+  --text: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --border: #334155;
   --primary: #3b82f6;
   --primary-hover: #60a5fa;
   --healthy: #4ade80;
@@ -156,6 +155,7 @@ button {
 .card h2 {
   margin: 0 0 20px;
   font-size: 20px;
+  color: var(--text);
 }
 
 .unit-switch {
@@ -193,6 +193,7 @@ button {
 .input-group label {
   font-weight: 700;
   font-size: 14px;
+  color: var(--text);
 }
 
 .input-wrapper {
@@ -327,6 +328,7 @@ button {
 .result-title h2 {
   margin: 0;
   font-size: 20px;
+  color: var(--text);
 }
 
 .result-title span {
@@ -489,6 +491,7 @@ button {
 
 .empty-state h2 {
   margin: 0;
+  color: var(--text);
 }
 
 .empty-state p {
