@@ -1,0 +1,46 @@
+{
+  "name": "khan-israk-ahmed-bmi-calculator",
+  "description": "BMI Calculator Website - First Iteration",
+  "author": "khan-israk-ahmed <israk.ahmed275@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KhanIsrakAhmed"
+  },
+  "version": "1.0.3",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "react": "18.3.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.5.3"
+  },
+  "homepage": "."
+}

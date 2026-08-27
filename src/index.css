@@ -1,0 +1,13 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
